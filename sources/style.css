@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NOTE: layout plan */
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid white;
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  z-index: 5;
+}
+
+.Navigation a{
+    margin: 20px;
+    color: white;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+.contentbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  top: 120px;
+  width: 100%;
+  background-color: black;
+}
+
+.main-box {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 700px;
+}
+
+.titlebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  padding: 10px 100px;
+  height: 100px;
+  color: white;
+}
+
+/* NOTE: Fontstyle */
+
+h1 {
+  font-size: 24px;
+  font-family: Arial;
+
+}
+
+h2  {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+span  {
+  font-size: 18px;
+  font-family: Arial;
+  color: white;
+}
