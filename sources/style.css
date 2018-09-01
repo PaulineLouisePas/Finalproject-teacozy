@@ -54,24 +54,111 @@
   background-color: black;
   padding: 10px 100px;
   height: 100px;
-  color: white;
+  }
+
+/* NOTE: layout midbox */
+
+.teapicks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1200px;
+  margin: 20px 5px;
 }
 
+.teabox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+.teabox img {
+  display: block;
+  padding: 5px;
+}
+
+.teabox span {
+  display: block;
+  padding: 10px;
+}
+
+/* NOTE: Layout location box */
+
+.locationsbox {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locationsbox h1 {
+  position: relative;
+  top: 30px;
+}
+
+.Addresscontainer {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 75px;
+}
+
+.Addressbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 250px;
+  height: 300px;
+  margin: 10px 20px;
+}
+
+.Addressbox h2 {
+  display: block;
+}
+
+.Addressbox h3 {
+  display: block;
+  text-align: center;
+}
+
+/* NOTE: footer layout */
+
+.Footer {
+  display: flex;
+  height: 360px;
+  width: 100%;
+}
 /* NOTE: Fontstyle */
 
 h1 {
-  font-size: 24px;
+  font-size: 28px;
   font-family: Arial;
-
+  font-weight: bold;
+  color: white;
 }
 
 h2  {
   font-size: 20px;
   font-family: Arial;
+  font-weight: bold;
+  color: white;
 }
 
-span  {
+h3  {
   font-size: 18px;
   font-family: Arial;
   color: white;
+}
+
+span  {
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+  font-weight: bold;
 }
