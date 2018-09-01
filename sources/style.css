@@ -129,11 +129,28 @@
 
 /* NOTE: footer layout */
 
-.Footer {
+.footer {
   display: flex;
-  height: 360px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+  height: 240px;
   width: 100%;
+  position: relative;
+  top: 120px;
+  background-color: black;
 }
+
+.footer h1 {
+  margin-top: 10px;
+}
+
+.footer h3 {
+  display: flex;
+}
+
+
 /* NOTE: Fontstyle */
 
 h1 {
